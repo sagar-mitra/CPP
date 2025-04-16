@@ -65,3 +65,5 @@ int main() {         // Main function: entry point
 | **Top-Down/Bottom-Up**        | Top-Down                         | Bottom-Up (OOP approach)            |
 | **Code Security**             | Less secure (no encapsulation)   | More secure (OOP principles)        |
 | **File Extension**            | `.c`                             | `.cpp`                              |
+
+🙏 Thank you and keep hustling, keep coding! 💻🔥🚀
