@@ -22,7 +22,11 @@ int main()
 
     // Division (/) of integers truncates the decimal part. Use floats if you want the full result.
     float x = 10, y = 3;
-    cout << "x / y = " << x / y; // Output: 3.33333
+    cout << "x / y = " << x / y << endl; // Output: 3.33333
+
+    // Modulus operator when dividend < divisor
+    int p=3, q=7;
+    cout << p%q; // Output: 2
 
     return 0;
 }

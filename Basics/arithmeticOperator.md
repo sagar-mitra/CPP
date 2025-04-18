@@ -64,4 +64,8 @@ Use `<cmath>` for extended arithmetic operations like:
 - `floor(a)` – Rounds a *down* to the nearest integer
 - `round(a)` – Rounds a to the nearest whole number
 
+---
 
+## Important
+
+when using modulus operator (%), if the dividend is less than the divisor then it returns the dividend
