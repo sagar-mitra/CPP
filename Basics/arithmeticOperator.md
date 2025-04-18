@@ -66,6 +66,32 @@ Use `<cmath>` for extended arithmetic operations like:
 
 ---
 
+# C/C++ Operator Precedence and Associativity
+
+Operators higher in the table have higher precedence and are evaluated before operators lower in the table.
+
+| Precedence Level | Operators                             | Description                                       | Associativity    |
+|------------------|----------------------------------------|---------------------------------------------------|------------------|
+| 1                | `()` `[]` `.` `->`                    | Function call, array subscript, member access     | Left to Right    |
+| 2                | `++` `--` `+` `-` `!` `~` `sizeof`     | Unary operators, logical/bitwise NOT, size        | Right to Left    |
+| 3                | `*` `/` `%`                            | Multiplication, Division, Modulus                 | Left to Right    |
+| 4                | `+` `-`                                | Addition, Subtraction                             | Left to Right    |
+| 5                | `<<` `>>`                              | Bitwise shift left/right                          | Left to Right    |
+| 6                | `<` `<=` `>` `>=`                      | Relational operators                              | Left to Right    |
+| 7                | `==` `!=`                              | Equality, Inequality                              | Left to Right    |
+| 8                | `&`                                    | Bitwise AND                                       | Left to Right    |
+| 9                | `^`                                    | Bitwise XOR                                       | Left to Right    |
+| 10               | `|`                                    | Bitwise OR                                        | Left to Right    |
+| 11               | `&&`                                   | Logical AND                                       | Left to Right    |
+| 12               | `||`                                   | Logical OR                                        | Left to Right    |
+| 13               | `?:`                                   | Ternary conditional                               | Right to Left    |
+| 14               | `=` `+=` `-=` `*=` `/=` `%=` etc.     | Assignment and compound assignment                | Right to Left    |
+| 15               | `,`                                    | Comma operator                                    | Left to Right    |
+
+
+
+---
+
 ## Important
 
 when using modulus operator (%), if the dividend is less than the divisor then it returns the dividend
