@@ -13,4 +13,6 @@ int main() {
      } else {
         cout << "The number " << a << " is a odd number." << endl;
      }
+
+     return 0;
 } 
