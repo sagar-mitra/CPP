@@ -3,10 +3,18 @@
 using namespace std;
 
 int main() {
-    float a=10, b=3;
+    int x=4, y=0;
 
-    cout << ceil(a/b) << endl; // 3
-    cout << fmod(a,b) << endl; // 1
+    while(x >= 0) {
+        x--;
+        y++;
+
+        if(x==y) {
+            continue;
+        } else {
+            cout << x << " " << y << endl;
+        }
+    }
 
     return 0;
 }

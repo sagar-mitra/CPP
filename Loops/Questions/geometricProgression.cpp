@@ -13,5 +13,5 @@ int main()
        cout << result << " ";
        result *= 2;
    }
-   return 0;
+   return 0;   
 }
